@@ -1,0 +1,43 @@
+git --version    it tell the version
+git status 	 it tell how many files are there in repository 
+git init  	 iss folder ko repo bna dega/ ye ek hidden file bna dega jaha ye sari files ko store karke rkhega , isiki madad se jo bhi code hme reset yaa vapas laana hota hai vo hota hai 
+git add .	 add this folder in the staging area
+git commit -m "version 1"       version 1 ki jagah koi bhi naam deskte ho
+git log		 it tell when when the changing did in this repo
+git config --global user.name "Harsh tanwar"
+git config --global user.email "harshtanwar14122003@gmail.com"
+git push origin master // ssh key bnani pdegi
+git pull origin master // ssh key bnani pdegi
+git diff (yha txt file ka naam jo change ki h abhi)  eg = git diff utils.txt  // abb jo phle tha vo and abbjo j vo dikha dega ki kya change hua tha
+git diff --staged index.txt  // to ye staged me jo change phucha h abhi vo dikha dega
+git reset utils.txt  // agar mujhe phle vale change pr jana h to , vaise hi chaihye jaisa change se phle tha.
+git checkout utils.txt   // reset ke baad ye bhi maar dena
+// agar dono files me galat add kardiya kuch to "git checkout . "
+ye likh do to phle vala hi ban jayega vo , reset karne ki bhi jarurt
+nhi hai ,//
+git pull   // sirf ye likha to jinhone jitne change kiye the ve aajayenge
+git -A      // stages all
+git .	    // stages new and modified , without deleted 
+git -u 	    // stages modified and deleted , without new
+git clone (------) //isme uss repo ki ssh link daal do jo tumhe copy karni thi ,
+git clone (------.) // agar tum chahte ho ki copies ka folder naa bne balki puri ek repo hi ban jaaye to . laga do bs last me
+// sidha hi clone bna lo baar baar download karoge to bekar method h vo 
+// gitignore tb use karna jab tumhe pta h ki ye file bekar h yaa 
+mai isspar kaam nhi kar rha fir bhi ye push pull ho rhi h memory 
+khaa rhi h ,to usse gitignore bna ke ignore kar do ,ye ek blank 
+file bna dega or usme tum unn files ka naam likh do jo tum ignore
+karna chahte ho ye apne aap hi ignore kar dega (main screenshot
+leliye hai dekh lena code iska ) //
+
+
+//branching ye important h code phone ke screnshot me hai
+
+
+
+
+ // git se hum apne purane version yaa file me bhi jaa skte hai 
+    change se phle thi ,hm uss code ka snap lelete hai    //
+
+ // if i not write global here then this name and email is only 
+for this repo not for all , but when i write this with global 
+then it is for all my repo's//
