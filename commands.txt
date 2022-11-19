@@ -32,7 +32,9 @@ leliye hai dekh lena code iska ) //
 
 //branching ye important h code phone ke screnshot me hai
 
-
+// gitbash agar use kar rahe ho to ssh key lo , ssh ka url 
+issliye paste karte ho tum yha ,taki tum git ko bta sko ki 
+files ko iss url ki jagah par push karna hai //
 
 
  // git se hum apne purane version yaa file me bhi jaa skte hai 
