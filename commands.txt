@@ -8,6 +8,7 @@ git config --global user.name "Harsh tanwar"
 git config --global user.email "harshtanwar14122003@gmail.com"
 git push origin master // ssh key bnani pdegi
 git pull origin master // ssh key bnani pdegi
+git remote add origin "ssh key"
 git diff (yha txt file ka naam jo change ki h abhi)  eg = git diff utils.txt  // abb jo phle tha vo and abbjo j vo dikha dega ki kya change hua tha
 git diff --staged index.txt  // to ye staged me jo change phucha h abhi vo dikha dega
 git reset utils.txt  // agar mujhe phle vale change pr jana h to , vaise hi chaihye jaisa change se phle tha.
